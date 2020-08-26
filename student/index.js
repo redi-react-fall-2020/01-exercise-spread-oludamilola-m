@@ -30,7 +30,7 @@ function shallowCopyArray (array) {
 // Given two objects,
 // turn them into one object that contains the properties of both objects
 function mergeTwoObjects (object1, object2) {
-  // your code here
+   return {...object1, ...object2}
 }
 
 // Exercise 5

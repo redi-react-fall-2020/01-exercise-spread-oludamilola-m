@@ -23,7 +23,7 @@ function shallowCopyObject (object) {
 // Given an array,
 // return a shallow copy of the array
 function shallowCopyArray (array) {
-  // your code here
+  return [...array]
 }
 
 // Exercise 4

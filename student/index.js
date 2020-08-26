@@ -16,7 +16,7 @@ function splitTheString (string) {
 // Given an object,
 // return a shallow copy of the object
 function shallowCopyObject (object) {
-  // your code here
+  return {...object}
 }
 
 // Exercise 3

@@ -37,7 +37,7 @@ function mergeTwoObjects (object1, object2) {
 // Given two arrays,
 // turn them into one array containing all elements of both arrays
 function combineTwoArrays (array1, array2) {
-  // your code here
+ return [...array1, ...array2]
 }
 
 module.exports = {

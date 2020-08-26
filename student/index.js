@@ -9,7 +9,7 @@ function returnTheString (string) {
 // Given a string,
 // turn it into an array of the letters in the string
 function splitTheString (string) {
-  // your code here
+  return [...string]
 }
 
 // Exercise 2

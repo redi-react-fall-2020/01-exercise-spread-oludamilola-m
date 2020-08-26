@@ -2,7 +2,7 @@
 // Given a string,
 // return the string
 function returnTheString (string) {
-  // your code here
+  return string
 }
 
 // Exercise 1
